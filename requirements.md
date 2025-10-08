@@ -22,16 +22,17 @@ Method	Endpoint	Description
 
 #### Input (JSON):
 
-{
+```{
   "name": "John Doe",
   "email": "john@example.com",
   "password": "StrongPass123",
   "role": "host"
 }
+```
 
 #### Output (Success 201):
 
-{
+```{
   "message": "User registered successfully",
   "user": {
     "id": "u123",
@@ -40,3 +41,4 @@ Method	Endpoint	Description
   },
   "token": "jwt-token"
 }
+```

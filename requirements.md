@@ -13,8 +13,8 @@
 
 ### API Endpoints
 Method	Endpoint	Description
-* POST	/api/auth/register  -	Register a new user (Guest or Host)
-* POST	/api/auth/login	- Authenticate user credentials
+* ``` POST	/api/auth/register ```  -	Register a new user (Guest or Host)
+* ```POST	/api/auth/login```	- Authenticate user credentials
 * GET	/api/auth/profile	- Fetch user profile (JWT required)
 * PUT	/api/auth/profile	- Update user profile
 * Input / Output - Specification
